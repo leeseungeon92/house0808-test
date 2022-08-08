@@ -98,6 +98,7 @@ main{
     background-color: rgba(255, 64, 179, 0.8);
     border-radius: 10px 0 0 0;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .map_div_top .map_second_li> .map_right>p:first-child{
@@ -106,6 +107,7 @@ main{
     background-color: rgba(0, 189, 139, 0.8);
     border-radius: 10px 0 0 0;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .map_div_top .map_third_li> .map_right>p:first-child{
@@ -114,6 +116,7 @@ main{
     background-color: rgba(0, 153, 221, 0.8);
     border-radius: 10px 0 0 0;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .map_div_bottom{
@@ -163,6 +166,7 @@ main{
     box-sizing: border-box;
     background-color: rgba(96,21,192,0.8);
     border-radius: 10px 10px 0  0;
+    font-family: 'ROKAFSansMedium';
 }
 
 .map_fourth_li>.map_right>div a{
@@ -196,6 +200,7 @@ main{
 
 /********************************************************************/
 .map_s16{
+    font-family :'Jua', sans-serif;
     font-size: 16px;
 }
 

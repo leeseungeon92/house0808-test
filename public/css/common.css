@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ROKAFSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .common_h_section{
     width: 100%;
     padding: 20px;
@@ -12,12 +19,12 @@
 }
 
 .h_logo_wrap{
-    width: 301px;
     background-image: url(../img/logo_nw.gif);
     background-size: cover;
     background-position: center center;
     width: 400px;
     border-radius: 10px;
+    height: 90px;
 }
 
 .dis_appear{
@@ -37,6 +44,7 @@
     width: 25%;
     font-size: 24px;
     justify-content: space-around;
+    font-family :'Jua', sans-serif;
 }
 
 .h_login{
@@ -49,6 +57,7 @@
 .h_login p{
     width: 100%;
     text-align: center;
+    font-family :'Jua', sans-serif;
 }
 
 .login{
@@ -134,6 +143,7 @@
     padding: 20px;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.9);
+    font-family :'Jua', sans-serif;
 }
 
 

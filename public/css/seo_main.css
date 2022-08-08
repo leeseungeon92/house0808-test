@@ -16,6 +16,10 @@ main{
     margin-bottom: 100px;
 }
 
+.main_section2{
+    margin-top: 200px !important;
+}
+
 .main_total_wrap{
     width: 1440px;
     margin: auto;
@@ -100,8 +104,8 @@ main{
 }
 
 .main_pop-up{
-    width: 25%;
-    height: 50%;
+    width: 23%;
+    height: 55%;
     padding: 10px;
     position: absolute;
     background-color: rgba(124, 124, 124, 0.8);
@@ -109,16 +113,18 @@ main{
     top: 50px;
     left : 10px;
     z-index: 3;
+    border-radius: 10px;
 }
 
 .main_pop-up>div{
     position: relative;
     width: 100%;
-    padding: 10px;
+    padding: 20px 0 10px;
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family :'Jua', sans-serif;
 }
 
 .main_day_close{
@@ -219,10 +225,12 @@ main{
 }
 
 .main_mid>.mid_title{
-        width: 223px;
-        margin: auto;
+        width: 30%;
+        margin: 0 auto 50px;
         text-align: center;
-        padding-bottom: 20px;
+        padding: 10px;
+        background-color: rgba(124, 124, 124, 0.7);
+        border-radius: 10px;
     }
 
 .main_mid>img{
@@ -273,42 +281,23 @@ main{
    transform: translate(-50%, -50%);
 }
 
-.main_festival_name{
-    text-align: center;
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translate(-50%);
-    margin-bottom: 30px;
-    z-index: 2;
-}
-
-.main_festival_name>h2{
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    display: inline-block;
-    background-color: rgba(255, 64, 179, 0.6);
-    border-radius: 10px;
-    padding: 10px 50px;
-
-}
-
 .main_more_btn{
     text-align: center;
 }
 
 .main_more_btn>div{
+    width: 10%;
     display: inline-block;
     padding: 10px 20px;
     background-color: rgba(0, 153, 221, 0.6);
     border-radius: 15px;
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     left: 50%;
     margin-bottom: 20px;
     transform: translate(-50%);
     z-index: 2;
+    font-family :'Jua', sans-serif;
 }
 
 .main_more_btn a{
@@ -317,9 +306,23 @@ main{
     background: none;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.mainsection2_top_title{
+    display: block;
+    width: 30%;
+    background-color: rgba(124, 124,124, 0.7);
+    margin: 0 auto 100px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'ROKAFSansMedium';
+    border-radius: 10px;
+    padding: 10px 0 ;
 }
 
 .main_contents{
@@ -427,6 +430,7 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: 'ROKAFSansMedium';
 }
 
 .main_contents figcaption:last-child{
@@ -437,6 +441,17 @@ main{
 
 .main_tour_title{
     text-align: center;
+    display: block;
+    width: 30%;
+    background-color: rgba(124, 124,124, 0.7);
+    margin: 0 auto 100px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'ROKAFSansMedium';
+    border-radius: 10px;
+    padding: 10px 0;
 }
 
 .main_tour_title>div{
@@ -472,13 +487,24 @@ main{
 }
 
 .main_tour_contents figcaption{
+    font-family: 'ROKAFSansMedium';
     border-radius: 0 0 10px 10px;
 }
 
 .main_event_title>div{
-    width: 466px;
     text-align: center;
     margin: auto;
+    display: block;
+    width: 30%;
+    background-color: rgba(124, 124,124, 0.7);
+    margin: 0 auto 100px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'ROKAFSansMedium';
+    border-radius: 10px;
+    padding: 10px 0;
 }
 
 .main_event_contents{
@@ -720,7 +746,8 @@ main{
 }
 
 .main_size28{
-    font-size: 36px;
+    font-family: 'ROKAFSansMedium';
+    font-size: 28px;
 }
 
 .main_size34{
@@ -811,6 +838,7 @@ main{
         left : 30px;
         padding: 10px;
     }
+
     .main_pop_text{
         font-size: 16px;
     }

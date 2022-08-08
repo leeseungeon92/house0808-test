@@ -37,6 +37,7 @@ main{
     color: white;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'ROKAFSansMedium';
 }
 
 .search{
@@ -60,6 +61,7 @@ main{
     font-size: 18px;
     font-weight: bold;
     line-height: 60px;
+    font-family: 'ROKAFSansMedium';
 }
 
 .search_bar{
@@ -129,6 +131,7 @@ main{
     font-weight: bold;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .title_news{
@@ -141,6 +144,7 @@ main{
     margin: 0 20px;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .title_date{
@@ -152,6 +156,7 @@ main{
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 
 }
 
@@ -165,6 +170,7 @@ main{
     font-weight: bold;
     padding: 10px 0;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .title_news_content{
@@ -174,6 +180,7 @@ main{
     border-bottom: 3px solid rgba(96,21,192,0.6);
     margin: 0 20px;
     box-sizing: border-box;
+    font-family :'Jua', sans-serif;
 }
 
 .title_news_content>a{
@@ -191,6 +198,7 @@ main{
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 .page_bar{
@@ -218,6 +226,7 @@ main{
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'ROKAFSansMedium';
 }
 
 .admin_write{
@@ -235,6 +244,7 @@ main{
     text-align: center;
     padding: 0 10px;
     box-sizing: border-box;
+    font-family :'Jua', sans-serif;
 }
 
 .admin_edit{

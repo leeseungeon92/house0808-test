@@ -38,6 +38,7 @@
 }
 
 .food_title_txt{
+    font-family: 'ROKAFSansMedium';
     width: 80%;
 }
 
@@ -83,6 +84,7 @@
     border-radius: 5px;
     padding: 10px;
     box-sizing: border-box;
+    font-family: 'ROKAFSansMedium';
 }
 
 
@@ -110,6 +112,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-family: 'ROKAFSansMedium';
 }
 
 .food_img_wrap figcaption:last-child{
@@ -130,6 +133,8 @@
 
 .food_more_bar a{
     display: block;
+    cursor: pointer;
+    font-family :'Jua', sans-serif;
 }
 
 .food_img1{
@@ -379,7 +384,7 @@
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 400px;
+    width: 450px;
     height: 500px;
     position: absolute;
     top: 200px;
@@ -402,6 +407,10 @@
     cursor: pointer;
     text-shadow: 1px 1px 2px gray;
     color: white;
+}
+
+.food_img_detail{
+    margin: auto;
 }
 
 #food_modal .food_content {

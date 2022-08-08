@@ -7,14 +7,14 @@ main{
 
 .intro_m_img_pic_wrap{
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     box-sizing: border-box;
 }
 
 .intro_m_img_pic{
     padding-top:25%;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     background-image: url(../img/ERSjNjFVAAEZFqc.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -25,6 +25,18 @@ main{
     box-sizing: border-box;
 }
 
+.intro_top_title{
+    display: block;
+    width: 30%;
+    background-color: rgba(124, 124,124, 0.7);
+    margin: 0 auto 100px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'ROKAFSansMedium';
+    border-radius: 10px;
+}
 
 .intro_m_banner{
     position: absolute;
@@ -49,6 +61,7 @@ main{
     font-weight: bold;
     color: white;
     line-height: 97px;
+    font-family: 'ROKAFSansMedium';
 
 }
 
@@ -61,6 +74,7 @@ main{
     font-weight: bold;
     color: white;
     padding: 10px 0;
+    font-family: 'ROKAFSansMedium';
 }
 
 /**********************************************/
@@ -117,7 +131,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 0 auto 100px;
 }
 
 .intro_m_text{
@@ -153,6 +167,7 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: 'ROKAFSansMedium';
 }
 
 .intro_m_text_div2{
@@ -162,10 +177,7 @@ main{
     align-items: center;
     padding: 30px;
     box-sizing: border-box;
-    
-
 }
-
 
 .intro_m_text_div2>p{
     display: block;
@@ -175,6 +187,7 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: 'ROKAFSansMedium';
 }
 
 .intro_m_text2{
@@ -205,6 +218,7 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: 'ROKAFSansMedium';
 }
 
 .intro_m_text_div4{
@@ -214,9 +228,7 @@ main{
     align-items: center;
     padding: 30px;
     box-sizing: border-box;
-
 }
-
 
 .intro_m_text_div4>p{
     display: block;
@@ -226,6 +238,8 @@ main{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: 'ROKAFSansMedium';
+    font-size: 15px;
 }
 
 .intro_pink{
@@ -251,6 +265,7 @@ main{
 }
 
 .intro_s16{
+    font-family: 'ROKAFSansMedium';
     font-size: 16px;
     font-weight: bold;
 }
@@ -266,6 +281,7 @@ main{
 }
 
 .intro_s24{
+    font-family :'Jua', sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
@@ -286,13 +302,15 @@ main{
 
 .intro_title>h1{
     display: block;
-    width: 100%;
+    width: 30%;
     background-color: rgba(124, 124,124, 0.7);
-    margin: 0 auto 50px;
+    margin: 0 auto 100px;
     font-size: 28px;
     font-weight: bold;
     color: white;
     text-align: center;
+    font-family: 'ROKAFSansMedium';
+    border-radius: 10px;
 }
 
 .intro_order{
@@ -322,6 +340,7 @@ main{
     background-color: rgba(255, 64, 179, 0.6);
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .intro_order_wrap_ul1>li{
@@ -335,6 +354,7 @@ main{
     background-color:rgba(0, 189, 139, 0.6);
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .intro_order_wrap_ul1-2>li{
@@ -347,6 +367,7 @@ main{
     background-color: rgba(0, 153, 221, 0.6);
     display: flex;
     align-items: center;
+    border-radius: 10px;
 
 }
 
@@ -360,6 +381,7 @@ main{
     background-color: rgba(96,21,192,0.6);
     display: flex;
     align-items: center;
+    border-radius: 10px;
 
 }
 
