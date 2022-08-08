@@ -1,0 +1,59 @@
+        <article class="title_img">
+            <img src="../img/sub05_top.jpg">
+        </article>
+        <section class="total_wrap">
+            <article class="title">
+                <div>
+                    <h1>Notice</h1>
+                </div>
+            </article>
+            <article class="search">
+                <div>
+                    <div class="search_name">
+                        <h2>전체</h2>
+                    </div>
+                    <div class="search_bar"><input type="text" placeholder="검색어를 입력하세요"></div>
+                    <div class="search_click"><button></button></div>
+                </div>
+            </article>
+            <section>
+                <article class="contents_title">
+                    <div>
+                        <div name="number" class="title_number">번호</div>
+                        <div name="info" class="title_news">알림 정보</div>
+                        <div name="date" class="title_date">등록일</div>
+                        <div name="date" class="title_date">수정일</div>
+                    </div>
+                </article>
+
+                <% rows.forEach((row, index) => {%>
+            <article class="contents_title">
+                <div>
+                    <div class="title_numbering"><%= row.id%></td></div>
+
+                    <div class="title_news_content"><a href="javascript:void(0)" onclick="javascript:location.href='/notice_content?id=<%=row.id%>'"><%= row.content%></a></div>
+                    
+                    <div class="title_month_day"><%= row.create_time%></div>
+                    <div class="title_month_day"><%= row.update_time%></div>
+
+                </div>
+            </article>
+            <%  })  %>
+
+            </section>
+            <section>
+                <div class="page_bar">
+                    <ul>
+                        <li><button><<</button></li>
+                        <li><button><</button></li>
+                        <li><button>1</button></li>
+                        <li><button>2</button></li>
+                        <li><button>3</button></li>
+                        <li><button>4</button></li>
+                        <li><button>></button></li>
+                        <li><button>>></button></li>
+                    </ul>
+                    <div class="admin_write" onclick="javascript:location.href='/notice_write'">글쓰기</div>
+                </div>
+            </section>
+        </section>

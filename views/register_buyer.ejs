@@ -1,0 +1,92 @@
+        <form name="buyer_join" method="post">
+            <div class="container_wrap">
+                <div class="classfy">
+                    <ul>
+                        <li><a href="buyer_join">일반 회원가입</a></li>
+                        <li><a href="seller_join">판매자 회원가입</a></li>
+                    </ul>
+                </div>
+                <article class="container">
+                    <p>1. 기본 정보</p>
+                    <div class="nick">
+                        <div>
+                            <h3>아이디</h3>
+                            <span class="id"><input id="uid"></span>
+                            <span class="side">＊4자~12자리의 영문자, 숫자 / @,#,$등 특수문자는 제외</span>
+                            <!-- <span class="dup"><a href="">중복확인</a></span> -->
+                            <span id="chkId" style="display: block; font-size: 12px;"></span>
+                        </div>
+                        <div>
+                            <h3>비밀번호</h3>
+                            <span class="pw"><input id="upw" type="password"></span>
+                            <span class="side">＊영문 대문자, 소문자, 숫자, 특수문자를 3가지 이상 사용하여 8자 이상,
+                                20자 이하로 설정하십시오.</span>
+                        </div>
+                        <div>
+                            <h3>비밀번호 재확인</h3>
+                            <span class="pw"><input id="reupw" type="password"></span>
+                            <span class="side">＊비밀번호를 다시 한번 입력해주세요.</span>
+                            <span id="chkPw" style="display: block; font-size: 12px;"></span>
+                        </div>
+                    </div>
+                    <p>2. 개인 정보</p>
+                    <div class="person_warp">
+                        <div class="person">
+                            <h3>이름</h3>
+                            <span><input id="username" style="color: black;"></span>
+                        </div>
+                        <div class="birth">
+                            <h3>생년월일</h3>
+                            <span><input id="birthyear" placeholder="ex) 19--">년</span>
+                            <select>
+                                <option value="">*월</option>
+                                <option value="1월">1월</option>
+                                <option value="2월">2월</option>
+                                <option value="3월">3월</option>
+                                <option value="4월">4월</option>
+                                <option value="5월">5월</option>
+                                <option value="6월">6월</option>
+                                <option value="7월">7월</option>
+                                <option value="8월">8월</option>
+                                <option value="9월">9월</option>
+                                <option value="10월">10월</option>
+                                <option value="11월">11월</option>
+                                <option value="12월">12월</option>
+                            </select>
+                            <span><input id="birthday">일</span>
+                        </div>
+                        <div class="sex">
+                            <h3>성별</h3>
+                            <select>
+                                <option value="">*성별</option>
+                                <option value="남">남</option>
+                                <option value="여">여</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h3>전화번호</h3>
+                            <span><input id="phonenumber" placeholder="010-XXXX-XXXX"></span>
+                            <span class="info_sub">* 주문 배송 및 이벤트 문자, ARS 상담시 본인 확인용으로 사용</span>
+                        </div>
+                        <div>
+                            <h3>E-mail</h3>
+                            <span><input id="email" placeholder="ex) -------@naver.com"></span>
+                            <select class="mail">
+                                <option value="직접입력">직접입력</option>
+                                <option value="네이버">@naver.com</option>
+                                <option value="네이트">@nate.com</option>
+                                <option value="다음">@daum.net</option>
+                                <option value="지메일">@gmail.com</option>
+                                <option value="한메일">@hanmail.com</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </article>
+                <article class="btn">
+                    <button><span>가입완료</span></button>
+                </article>
+        </div>
+        </form>

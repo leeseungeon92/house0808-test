@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/common.css"> 
+    <link rel="stylesheet" href="css/seo_food.css">
+    <link rel="stylesheet" href="css/seo_intro.css">
+    <link rel="stylesheet" href="css/seo_main.css">
+    <link rel="stylesheet" href="css/seo_map.css">
+    <link rel="stylesheet" href="css/seo_notice.css">
+    <link rel="stylesheet" href="css/seo_notice_contents.css">
+    <link rel="stylesheet" href="css/seo_bar.css">
+    <link rel="stylesheet" href="css/register_buyer.css">
+    <link rel="stylesheet" href="css/register_seller.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/notice_admin.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <section class="common_h_section">
+            <article class="h_box">
+                <a class="h_logo_wrap" href="/">
+                    <div class="h_logo"></div>
+                </a>
+                <div class="dis_appear">
+                    <ul class="h_menu">
+                        <li><a class="purple bold s24" href="intro">소개</a></li>
+                        <li><a class="green bold s24" href="notice_main">공지사항</a></li>
+                        <li><a class="pink bold s24" href="food">먹거리</a></li>
+                        <li><a class="blue bold s24" href="map">오시는길</a></li>
+                    </ul>
+
+                    <ul class="h_login">
+                        <li>
+                            <a href="login">
+                                <div class="login"></div>
+                                <p class="white">Login</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="join">
+                                <div class="join"></div>
+                                <p class="white">Join</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- <ul class="h_user_status" style="background-color: rgba(0,0,0,0.9);"> -->
+                        <!-- <li id="login" onclick="javascript:kakaoLogin();">로그인</li> -->
+                        <!-- <li class="white"><span id="user"></span>님</li>
+                        <li class="white" id="logout" onclick="javascript:kakaoLogout();">로그아웃</li>
+                    </ul> -->
+
+                </div>
+                    <div class="dis_none">
+                        <a href="bar">
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+            </article>
+        </section>
+        <ul class="h_user_status" style="background-color: rgba(0,0,0,0.9);">
+            <!-- <li id="login" onclick="javascript:kakaoLogin();">로그인</li> -->
+            <li class="white" style="text-align: end; padding-right: 30px; box-sizing: border-box;"><span id="user"></span>님 로그인상태 입니다.</li>
+            <li class="white" style="text-align: end; padding-right: 30px; box-sizing: border-box;" id="logout" onclick="javascript:kakaoLogout();">로그아웃</li>
+        </ul>
+    </header>
+    <main>
+        <%- body %>
+    </main>
+
+
+    <footer>
+        <section class="f_section">
+            <article class="f_box">
+                <div class="f_logo"></div>
+                <div class="f_info">
+                    <p class="white bold s14">대구 남구 대명로 215 대구광역시상인회관4층 재단법인 
+                        <span>대구전통시장진흥재단ㆍ상권육성팀</span></p>
+                    <p class="white bold s14">주소 대구 중구 큰장로 26길 45 | 전화 053-256-6341</p>
+                    <p class="white bold s14">Seomun Night Market Ⓒ2016 Daegu traditional Market Support Agency. All Rights Reserved</p>
+                </div>
+                <ul class="f_sns">
+                    <li>           
+                        <a href="https://blog.naver.com/nightseomun">
+                            <div class="naver"></div>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="https://www.facebook.com/nightseomun/">
+                            <div class="facebook"></div>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+<script src="./js/main.js"></script>
+<script src="./js/food.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/register.js"></script>
+</html>

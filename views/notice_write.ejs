@@ -1,0 +1,32 @@
+        <section>
+            <h2>공지사항 작성하기</h2>
+            <form method="POST" action="/notice_write">
+            <table>
+                <tr>
+                    <label style="color: white;">알림 정보 제목</label>
+                    <label style="color: white;">공지사항 내용</label>
+                    <td class="ti">
+                        <input name="notice_title" type="text" id="title">
+                        <span style="color: white;">(※ 최대 10자 이내)</span>
+                    </td>
+                    <td>
+                        <textarea name="inner_content" type="text" id="inner_content">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td  colspan="2">
+                        <input type="submit" value="저장" id="save">
+                        <input type="button" value="뒤로 가기" onclick="javascript:location.href='/'">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </section>
+
+
+    <% if(typeof errs !== 'undefined'){ %>
+        <% errs.forEach((err)=>{ %>
+            <h3><%=err.param%> : <%=err.msg%></h3>
+        <% }) %>
+    <% } %>

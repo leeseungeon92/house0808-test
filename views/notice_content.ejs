@@ -1,0 +1,23 @@
+        <section class="total_wrap">
+            <section>
+                <article class="art_head">
+                    <p>夜하게 놀자, 대한민국 대표 야시장</p>
+                    <h2>공지사항</h2>
+                    <h3 style="color: white;">글로벌하게 먹고, 마시고, 즐길 수 있는 대한민국 No.1 야시장</h3>
+                </article>
+            </section>
+            <section class="content_main">
+                <div class="txt_title">
+                    <strong name="content_main_title"><%= row.content%></strong>
+                    <p style="color: white;">작성자 : <span name="content_admin_name" style="color: white;">관리자</span></p>
+                </div>
+                <div class="txt_content">
+                    <div><%=row.inner_content%></div>
+                </div>
+                <td  colspan="2">
+                    <input type="submit" value="수정" id="save" onclick="javascript:location.href='/notice_edit?id=<%=row.id%>'">
+                    <input type="button" value="삭제" onclick="javascript:location.href='/notice_delete?id=<%=row.id%>'">
+                    <input type="button" value="뒤로 가기" onclick="javascript:location.href='/'">
+                </td>
+            </section>
+    </section>

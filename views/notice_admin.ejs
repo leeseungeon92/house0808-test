@@ -1,0 +1,64 @@
+        <section>
+            <h2>공지사항 작성하기</h2>
+            <form>
+            <table>
+                <tr>
+                    <td><label>제목</label></td>
+                    <td class="ti">
+                        <input type="text" id="title">
+                        <span>(※ 최대 10자 이내)</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label>이름 : </label></td>
+                    <td><input type="text" id="writer"></td>
+                </tr>
+                <tr>
+                    <td><label>비밀번호 : </label></td>
+                    <td><input type="password" id="password" placeholder="****"></td>
+                </tr>
+                <tr>
+                    <td><label>날짜 : </label></td>
+                    <td>
+                        <input type="number" id="date_year">년
+                        <select id="date_month">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>월
+                    <input type="text" id="date_day">일
+                </td>
+                </tr>
+                <tr>                    
+                    <td id="content">내용 작성 : </td>
+                    <td class="con">
+                        <textarea></textarea>
+                        <span>(※ 최대 50자 이하)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="content">글 번호 : </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td id="attach">첨부 : </td>
+                    <td><input type="button" value="파일첨부"></td>
+                </tr>
+                <tr>
+                    <td  colspan="2">
+                        <input type="submit" value="저장" id="save">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </section>
