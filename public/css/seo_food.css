@@ -410,7 +410,8 @@
 }
 
 .food_img_detail{
-    margin: auto;
+    border: 1px dashed white;
+    padding-left: 25px;
 }
 
 #food_modal .food_content {
@@ -420,7 +421,7 @@
 }
 
 .food_img_detail>img{
-    padding-top: 20px;
+    padding: 10px 0;
     width: 400px;
     height: 350px;
 }
