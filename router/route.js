@@ -41,7 +41,7 @@ router.post('/notice_write',
         let re_title = param['notice_title'] //db에 던져주기위해서 json의 형태로 만들어줌.
         let inner_content = param['inner_content']
         db.insertMemo(re_title, inner_content, () => {
-            res.redirect('/');
+            res.redirect('/notice_main');
         });
 }
     });
@@ -92,7 +92,7 @@ router.post('/store',
             });
         } else{
             db.updateMemoById(id, content, inner_content, () => {
-                res.redirect('/');
+                res.redirect('/notice_main');
             })
         }
 });
@@ -112,7 +112,7 @@ router.get('/notice_content', (req,res) => {
 router.get('/notice_delete', (req,res) => {
     let id = req.query.id;
     db.deleteMemoById(id,() => {
-        res.redirect('/');
+        res.redirect('/notice_main');
     });
 });
 
