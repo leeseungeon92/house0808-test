@@ -10,7 +10,7 @@ const mysql = require('mysql');
 //     dateStrings : 'date' //날짜 시간 출력 
 // })
 
-const connection = mysql.createPool({
+const connection = mysql.createConnection({
     host :'us-cdbr-east-05.cleardb.net',
     user :'b8af711059e047',
     password :'96d7a809',
