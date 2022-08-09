@@ -10,12 +10,21 @@ const mysql = require('mysql');
 //     dateStrings : 'date' //날짜 시간 출력 
 // })
 
-const connection = mysql.createConnection({
-    host :'us-cdbr-east-05.cleardb.net',
-    user :'b8af711059e047',
-    password :'96d7a809',
+// const connection = mysql.createConnection({
+//     host :'us-cdbr-east-05.cleardb.net',
+//     user :'b8af711059e047',
+//     password :'96d7a809',
+//     port : 3306,
+//     database : 'heroku_b6d25066b6ef691',
+//     dateStrings : 'date' //날짜 시간 출력 
+// })
+
+const connection = mysql.createPool({
+    host :'us-cdbr-east-06.cleardb.net',
+    user :'b98167174926a4',
+    password :'12f9c2d5',
     port : 3306,
-    database : 'heroku_b6d25066b6ef691',
+    database : 'heroku_d4ae3c7e1334218',
     dateStrings : 'date' //날짜 시간 출력 
 })
 
