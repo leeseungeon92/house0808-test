@@ -1,0 +1,83 @@
+.join_open{
+    height: 100vh;
+    margin: auto;
+}
+
+.join_classfy_wrap{
+    padding-top: 200px;
+}
+
+.join_classfy{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+/* .join_classfy{
+    display: flex;
+    width: 25%;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100px;
+    align-items: center;
+} */
+
+.join_buyer{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.join_classfy img{
+    border-radius: 10px;
+}
+
+.join_buyer>a{
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgba(0, 189, 139, 0.6);
+    border-radius: 10px;
+}
+
+.join_seller{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.join_seller>a{
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(0, 153, 221, 0.6);
+    border-radius: 10px;
+}
+
+
+
+/**************************responsive***********************/
+
+@media only screen and (max-width: 768px)
+{
+
+    .join_classfy li{
+        width: 30%;
+    }
+
+    .join_classfy a{
+        font-size: 18px;
+    }
+}
+
+    /*max-width:768px*/
+    /**********************************************************/
+
